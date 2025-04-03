@@ -41,3 +41,17 @@ A description of the variables follows below. This description also appears in t
 13. **activation**: This value represents the likelihood a specific fact is known by the student. 
 14. **estimatedAlpha**: This value represents how quickly a specific fact is forgotten by the student. 
 15. **estimatedResponseTime**:
+
+## Standard Exam Questions and scores: variables
+
+1. **Username**: Unique, anonymous identifier for each student. 
+2. **Chapter.ID**:  A code that identifies the chapter from which a specific fact was taken. 
+3. **factId**: A unique code that identifies each fact. 
+4. **exam.Q**: A unique code, question number, that identifies each question. 
+5. **multiple_choice**: True or False, indicating if the question was a multiplechoice question. 
+6. **reps.study**: How many times the fact was practiced by a student.  
+7. **PC.study**: 
+8. **final.alpha**: 
+9. **studied**: 
+10. **correct.exam**: The accuracy of the students' response.    
+
