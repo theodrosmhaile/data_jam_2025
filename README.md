@@ -15,7 +15,8 @@ If you want to code your solution with the available data you have a few options
      I will be on hand to help you get-set up : D 
 
 ## Data description
-The dataset we will be working with contains student fact learning data with the MemoryLab software in a Cognitive Psychology course here at the RUG. The data are published [here] (https://doi.org/10.17605/OSF.IO/E28NW), but is also available in this repository for your convenience. It might be informative to look at previous research related to this data, which can be found [here](https://doi.org/10.18608/jla.2021.6590) and [here](https://doi.org/10.31234/osf.io/d58n4). They can also serve as good resources. 
+The dataset we will be working with contains student fact learning data with the MemoryLab software in a Cognitive Psychology course here at the RUG for the 2017 and 2018 cohors. The data are published [here] (https://doi.org/10.17605/OSF.IO/E28NW), but is also available in this repository for your convenience. It might be informative to look at previous research related to this data, which can be found [here](https://doi.org/10.18608/jla.2021.6590) and [here](https://doi.org/10.31234/osf.io/d58n4). They can also serve as good resources. 
+The data can be found in the `data` folder. 
 
 The data-set has three main components: 
 1. Learning Practice in MemoryLab.
@@ -27,7 +28,7 @@ A description of the variables follows below.
 ## Variables
 
 ### Learning Practice in MemoryLab
-`year_memorylab_data.csv`
+`data/year_memorylab_data.csv`
 1. **User**: Unique, anonymous identifier for each student. 
 2. **session**: Numbers that indicate the specific learning session where the student practiced some facts. This varies across students. 
 3. **Sequence.Number**: With in learning sessions, the numbers indicate the sequence in which facts were shown and practiced. This varies across session. 
@@ -44,8 +45,9 @@ A description of the variables follows below.
 14. **estimatedAlpha**: This value represents how quickly a specific fact is forgotten by the student. 
 15. **estimatedResponseTime**:
 
-### Standard Exam Scores
 
+### Standard Exam Scores
+`data/year_exam_items.csv`
 1. **Username**: Unique, anonymous identifier for each student. 
 2. **Chapter.ID**:  A code that identifies the chapter from which a specific fact was taken. 
 3. **factId**: A unique code that identifies each fact. 
@@ -59,6 +61,6 @@ A description of the variables follows below.
 
 
 ### Students' final grades in the course
-
+`data/year_student_grades.csv`
 1. **User**: Unique, anonymous identifier for each student. 
 2. **Grade**: Grade, out of 10, for the course. 
