@@ -26,20 +26,18 @@ A description of the variables follows below. This description also appears in t
 
 ### Learning Practice in MemoryLab: variables
 
-1. **User**
-2. **Course.ID**
-3. **Course**
-4. **session**
-5. **Sequence.Number**
-6. **Chapter.ID**
-7. **Time**
-8. **factId**
-9. **Fact**
-10. **Number.Of.Alternatives**
-11. **repetition**
-12. **presentationStartTime**
-13. **reactionTime**
-14. **correct**
-15. **activation**
-16. **estimatedAlpha**
-17. **estimatedResponseTime** 
+1. **User**: Unique, anonymous identifier for each student. 
+2. **session**: Numbers that indicate the specific learning session where the student practiced some facts. This varies across students. 
+3. **Sequence.Number**: With in learning sessions, the numbers indicate the sequence in which facts were shown and practiced. This varies across session. 
+4. **Chapter.ID**: A code that identifies the chapter from which a specific fact was taken. 
+5. **Time**
+6. **factId**
+7. **Fact**
+8. **Number.Of.Alternatives**
+9. **repetition**
+10. **presentationStartTime**
+11. **reactionTime**
+12. **correct**
+13. **activation**
+14. **estimatedAlpha**
+15. **estimatedResponseTime** 
