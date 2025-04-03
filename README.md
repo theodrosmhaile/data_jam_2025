@@ -19,7 +19,7 @@ The dataset we will be working with contains student fact learning data with the
 
 The data-set has three main components: 
 1. Learning Practice in MemoryLab.
-2. Standard Exam questions and scores.
+2. Standard Exam scores.
 3. Students' final grades in the course. 
 
 A description of the variables follows below. This description also appears in the 
@@ -42,7 +42,7 @@ A description of the variables follows below. This description also appears in t
 14. **estimatedAlpha**: This value represents how quickly a specific fact is forgotten by the student. 
 15. **estimatedResponseTime**:
 
-## Standard Exam Questions and scores: variables
+### Standard Exam Scores: variables
 
 1. **Username**: Unique, anonymous identifier for each student. 
 2. **Chapter.ID**:  A code that identifies the chapter from which a specific fact was taken. 
@@ -55,3 +55,8 @@ A description of the variables follows below. This description also appears in t
 9. **studied**: 
 10. **correct.exam**: The accuracy of the students' response.    
 
+
+### Students' final grades in the course: variables
+
+1. **User**: Unique, anonymous identifier for each student. 
+2. **Grade**: Grade, out of 10, for the course. 
