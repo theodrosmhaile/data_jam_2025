@@ -22,10 +22,12 @@ The data-set has three main components:
 2. Standard Exam scores.
 3. Students' final grades in the course. 
 
-A description of the variables follows below. This description also appears in the 
+A description of the variables follows below. 
 
-### Learning Practice in MemoryLab: variables
+## Variables
 
+### Learning Practice in MemoryLab
+`year_memorylab_data.csv`
 1. **User**: Unique, anonymous identifier for each student. 
 2. **session**: Numbers that indicate the specific learning session where the student practiced some facts. This varies across students. 
 3. **Sequence.Number**: With in learning sessions, the numbers indicate the sequence in which facts were shown and practiced. This varies across session. 
@@ -42,7 +44,7 @@ A description of the variables follows below. This description also appears in t
 14. **estimatedAlpha**: This value represents how quickly a specific fact is forgotten by the student. 
 15. **estimatedResponseTime**:
 
-### Standard Exam Scores: variables
+### Standard Exam Scores
 
 1. **Username**: Unique, anonymous identifier for each student. 
 2. **Chapter.ID**:  A code that identifies the chapter from which a specific fact was taken. 
@@ -56,7 +58,7 @@ A description of the variables follows below. This description also appears in t
 10. **correct.exam**: The accuracy of the students' response.    
 
 
-### Students' final grades in the course: variables
+### Students' final grades in the course
 
 1. **User**: Unique, anonymous identifier for each student. 
 2. **Grade**: Grade, out of 10, for the course. 
