@@ -25,3 +25,21 @@ The data-set has three main components:
 A description of the variables follows below. This description also appears in the 
 
 ### Learning Practice in MemoryLab: variables
+
+1. **User**
+2. **Course.ID**
+3. **Course**
+4. **session**
+5. **Sequence.Number**
+6. **Chapter.ID**
+7. **Time**
+8. **factId**
+9. **Fact**
+10. **Number.Of.Alternatives**
+11. **repetition**
+12. **presentationStartTime**
+13. **reactionTime**
+14. **correct**
+15. **activation**
+16. **estimatedAlpha**
+17. **estimatedResponseTime** 
