@@ -33,11 +33,11 @@ A description of the variables follows below. This description also appears in t
 5. **Time**: The date, and time in the day when a student practiced a specific fact. 
 6. **factId**: A unique code that identifies each fact. 
 7. **Fact**: The actual fact practiced that corresponds to the fact ID. 
-8. **Number.Of.Alternatives**: 
-9. **repetition**:
-10. **presentationStartTime**
-11. **reactionTime**
-12. **correct**
-13. **activation**
-14. **estimatedAlpha**
-15. **estimatedResponseTime** 
+8. **Number.Of.Alternatives**: Number of alternative answer options to chose from for a given fact. 
+9. **repetition**: How many times a specific fact was practiced. 
+10. **presentationStartTime**: The time that a fact was displayed for practice.  
+11. **reactionTime**: How long a student takes to provide a response. 
+12. **correct**: The accuracy of the students' response. 
+13. **activation**: This value represents the likelihood a specific fact is known by the student. 
+14. **estimatedAlpha**: This value represents how quickly a specific fact is forgotten by the student. 
+15. **estimatedResponseTime**:
