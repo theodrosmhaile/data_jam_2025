@@ -30,11 +30,11 @@ A description of the variables follows below. This description also appears in t
 2. **session**: Numbers that indicate the specific learning session where the student practiced some facts. This varies across students. 
 3. **Sequence.Number**: With in learning sessions, the numbers indicate the sequence in which facts were shown and practiced. This varies across session. 
 4. **Chapter.ID**: A code that identifies the chapter from which a specific fact was taken. 
-5. **Time**
-6. **factId**
-7. **Fact**
-8. **Number.Of.Alternatives**
-9. **repetition**
+5. **Time**: The date, and time in the day when a student practiced a specific fact. 
+6. **factId**: A unique code that identifies each fact. 
+7. **Fact**: The actual fact practiced that corresponds to the fact ID. 
+8. **Number.Of.Alternatives**: 
+9. **repetition**:
 10. **presentationStartTime**
 11. **reactionTime**
 12. **correct**
