@@ -15,7 +15,7 @@ If you want to code your solution with the available data you have a few options
      I will be on hand to help you get-set up : D 
 
 ## Data description
-The dataset we will be working with contains student fact learning data with the MemoryLab software in a Cognitive Psychology course here at the RUG. The data are published here  https://doi.org/10.17605/OSF.IO/E28NW, but is also available in this repository for your convenience. It might be informative to look at previous research related to this data, which can be found here https://doi.org/10.18608/jla.2021.6590 and here https://doi.org/10.31234/osf.io/d58n4. They can also serve as good resources. 
+The dataset we will be working with contains student fact learning data with the MemoryLab software in a Cognitive Psychology course here at the RUG. The data are published here  https://doi.org/10.17605/OSF.IO/E28NW, but is also available in this repository for your convenience. It might be informative to look at previous research related to this data, which can be found here https://doi.org/10.18608/jla.2021.6590 and [here] (https://doi.org/10.31234/osf.io/d58n4). They can also serve as good resources. 
 
 The data-set has three main components: 
 1. Learning Practice in MemoryLab.
